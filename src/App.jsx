@@ -23,7 +23,7 @@ export const App = () => {
   return (
     
         <Routes>
-          <Route path='/' element={<Home/>} />
+          
           <Route path='/about' element={<About/>} />
           <Route path='/collection' element={<Collection/>} />
           <Route path='/order' element={<Order/>}/>
@@ -38,7 +38,7 @@ export const App = () => {
           <Route path='/features' element={<Features/>}/>
           <Route path='/reg' element={<Register/>}/>
           <Route path='/login' element={<Login/>}/>
-          <Route path='/admin' element={<AdminPanel/>}/>
+          <Route path='/' element={<AdminPanel/>}/>
           <Route path='/menu' element={<ProductMenu/>}/>
           <Route path='/new' element={<CreateProduct/>}/>
 
