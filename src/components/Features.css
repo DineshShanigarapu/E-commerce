@@ -1,0 +1,169 @@
+.features-container-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #fdfdfd;
+  
+  }
+  
+  .features-section-f {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 2rem;
+  }
+  
+  .features-header-f {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .features-subtitle-f {
+    color: #ff6600;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .features-title-f {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1d2951;
+    line-height: 1.4;
+  }
+  
+  .features-title-f span {
+    color: #ff6600;
+  }
+  
+  .features-content-f {
+    margin-top: 2rem;
+  
+  }
+  
+  .feature-item-f {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-icon-f {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  
+  }
+  
+  .feature-heading-f {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #1d2951;
+    text-wrap: nowrap;
+ 
+  }
+  
+  .feature-description-f {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .features-image-f {
+    flex: 1;
+    max-width: 400px;
+    position: relative; 
+}
+
+.student-image-f {
+    z-index: 10;
+    width: 100%;
+    position: relative; 
+}
+
+.circle {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: transparent;
+    border: 21px solid rgb(255 97 0 / 60%);
+    border-radius: 50%;
+    z-index: 1; 
+}
+
+@media screen and (max-width: 768px) {
+    .features-container-f {
+      flex-direction: column;
+      padding: 1.5rem;
+    }
+  
+    .features-section-f {
+      margin-right: 0;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .features-title-f {
+      font-size: 2rem;
+    }
+  
+    .features-content-f {
+      margin-top: 1.5rem;
+    }
+  
+    .feature-item-f {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .feature-icon-f {
+      margin-bottom: 0.5rem;
+    }
+  
+    .feature-heading-f {
+      margin-bottom: 0.5rem;
+    }
+  
+    .features-image-f {
+      max-width: 300px;
+      margin-top: 2rem;
+    }
+  }
+  /*For mobile*/
+  @media screen and (max-width: 480px) {
+    .features-container-f {
+      padding: 1rem;
+    }
+  
+    .features-title-f {
+      font-size: 1.8rem;
+    }
+  
+    .features-content-f {
+      margin-top: 1rem;
+    }
+  
+    .feature-item-f {
+      margin-bottom: 1rem;
+    }
+  
+    .feature-heading-f {
+      font-size: 1.1rem;
+    }
+  
+    .feature-description-f {
+      font-size: 0.9rem;
+    }
+  
+    .features-image-f {
+      max-width: 250px;
+    }
+  
+    .student-image-f {
+      top: 10px;
+    }
+  }
+  

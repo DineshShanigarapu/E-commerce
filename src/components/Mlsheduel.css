@@ -1,0 +1,106 @@
+/* ml sheduel ================= */
+
+.workshop-schedule-ml-w {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #080a14;
+  }
+  
+  .schedule-title-ml-w {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 2rem 0rem;
+    text-transform: uppercase;
+  }
+  
+  .schedule-container-ml-w {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .schedule-card-ml-w {
+    background: #000;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    color: #fff;
+  }
+  
+  .schedule-card-ml-w:hover {
+    transform: scale(1.05);
+  }
+  
+  .schedule-header-ml-w {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .date-icon-ml-w {
+    font-size: 24px;
+    color: #0056b3;
+  }
+  
+  .schedule-date-ml-w {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .schedule-time-ml-w {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .schedule-day-title-ml-w {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .schedule-topics-ml-w {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .topic-item-ml-w {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .icon-wrapper-ml-w {
+    margin-right: 0.5rem;
+  }
+  
+  .topic-icon-ml-w {
+    width: 20px;
+  }
+  
+  .join-button-ml-w {
+    width: 90%;
+    background: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .join-button-ml-w:hover {
+    background-color: #003f8a;
+  }
+  

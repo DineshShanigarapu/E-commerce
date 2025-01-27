@@ -1,0 +1,131 @@
+.ai-landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0b1121;
+    color: #ffffff;
+}
+
+.ai-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        display: flex;
+        flex-direction: column-reverse; /* Text comes above the image */
+    }
+}
+
+.ai-image {
+    background: url('https://themexriver.com/wp/ai-power/wp-content/uploads/2023/06/mft1.png');
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.ai-info .headline {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.ai-info .subtext {
+    font-size: 1rem;
+    color: #cfcfcf;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.feature-icon {
+    color: #ffa500;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+    background: linear-gradient(to right, #ff7f50, #ffa500);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background: linear-gradient(to right, #ff4500, #ff8c00);
+}
+
+.action-button {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.price {
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+/* Small screen adjustments */
+@media (max-width: 767px) {
+    .cta-button {
+        width: 100%; /* Full-width button on small screens */
+        text-align: center;
+    }
+
+    .ai-image {
+        height: 200px; /* Adjust image size for small screens */
+        margin: 0 auto;
+    }
+
+    .ai-info .headline {
+        font-size: 2rem; /* Smaller font size for headline */
+        white-space: normal; /* Allow text to wrap */
+    }
+
+    .ai-info .subtext {
+        font-size: 0.9rem; /* Smaller font size for subtext */
+    }
+}
