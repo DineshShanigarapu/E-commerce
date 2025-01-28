@@ -43,6 +43,11 @@ function Register() {
   };
 
   return (
+    <>
+    <div>
+    <img src='https://ecomusnext-themesflat.vercel.app/images/shop/file/page-title-blog.png' className='h-56' />
+    <h1 className='text-4xl relative bottom-36 text-center'>Register</h1>
+  </div>
     <div className="flex items-center justify-center min-h-screen w-screen">
       <div className="p-8 w-full sm:w-[70vw] md:w-[60vw] lg:w-[50vw]">
         <h2 className="text-2xl  mb-6">Register</h2>
@@ -106,12 +111,13 @@ function Register() {
           </button>
         </form>
         <div className="text-center ">
-          <p className="pt-5">
-            Already have an account? <a href="#">Login here↗</a>
+          <p className="pt-5 underline">
+          <a href="/login">  Already have an account? Login here↗</a>
           </p>
         </div>
       </div>
     </div>
+    </>
   );
 }
 

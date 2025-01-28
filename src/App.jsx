@@ -18,6 +18,12 @@ import Login from './pages/Login'
 import AdminPanel from './components/AdminPanel'
 import ProductMenu from './components/ProductMenu'
 import CreateProduct from './components/CreateProduct'
+import LoginPopup from './pages/Loginpopup'
+import RegisterModel from './pages/RegisterModel'
+import CartPage from './pages/CartPage'
+import CheckoutPage from './components/CheckoutPage'
+import Forgot from './pages/Forgot'
+import Title from './components/Title'
 
 export const App = () => {
   return (
@@ -41,7 +47,12 @@ export const App = () => {
           <Route path='/' element={<AdminPanel/>}/>
           <Route path='/menu' element={<ProductMenu/>}/>
           <Route path='/new' element={<CreateProduct/>}/>
-
+          <Route path='/pop' element={<LoginPopup/>}/>
+          <Route path='/regmodel' element={<RegisterModel/>}/>
+          <Route path='/cart' element={<CartPage/>}/>
+          <Route path='/check' element={<CheckoutPage/>}/>
+          <Route path='/forgot' element={<Forgot/>}/>
+          <Route path='/title' element={<Title/>}/>
         </Routes>
 
   )

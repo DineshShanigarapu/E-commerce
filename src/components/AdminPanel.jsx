@@ -24,9 +24,7 @@ const AdminPanel = () => {
 
   return (
     <div className="h-screen flex text-gray-600 text-grey">
-      {/* Sidebar */}
       <div className="flex flex-col w-60">
-        {/* Profile Section */}
         <div className="flex items-center p-4 border-b border-gray-800">
           <img
             src="https://techzaa.in/larkon/admin/assets/images/users/avatar-1.jpg" 
@@ -36,7 +34,6 @@ const AdminPanel = () => {
           <h1 className="ml-3 text-xl font-bold">John</h1>
         </div>
 
-        {/* Menu Section */}
         <div className="flex-grow p-4">
           <h2 className="text-gray-500 text-sm mb-4">GENERAL</h2>
           <ul className="space-y-2">
@@ -93,7 +90,6 @@ const AdminPanel = () => {
         </div>
       </div>
 
-      {/* Main Content Area */}
       <div className="flex-1 bg-gray-50">{renderContent()}</div>
     </div>
   );
