@@ -44,7 +44,7 @@ const RegisterModel = ({ onClose }) => {
           </button>
 
           <div className="mt-6 text-center text-sm relative bottom-3">
-            <a href="#" onClick={onClose} className="font-medium text-black hover:underline underline text-nowrap hover:bg-red-500">
+            <a href="#" onClick={onClose} className="font-medium text-black hover:underline underline text-nowrap ">
               Already have an account? Login here ↗
             </a>
           </div>

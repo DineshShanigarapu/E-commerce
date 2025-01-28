@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Collection } from './pages/Collection'
 import { Order } from './pages/Order'
@@ -18,12 +17,13 @@ import Login from './pages/Login'
 import AdminPanel from './components/AdminPanel'
 import ProductMenu from './components/ProductMenu'
 import CreateProduct from './components/CreateProduct'
-import LoginPopup from './pages/Loginpopup'
+
 import RegisterModel from './pages/RegisterModel'
 import CartPage from './pages/CartPage'
 import CheckoutPage from './components/CheckoutPage'
 import Forgot from './pages/Forgot'
 import Title from './components/Title'
+import LoginPopup from './pages/Loginpopup'
 
 export const App = () => {
   return (
@@ -47,12 +47,12 @@ export const App = () => {
           <Route path='/' element={<AdminPanel/>}/>
           <Route path='/menu' element={<ProductMenu/>}/>
           <Route path='/new' element={<CreateProduct/>}/>
-          <Route path='/pop' element={<LoginPopup/>}/>
           <Route path='/regmodel' element={<RegisterModel/>}/>
           <Route path='/cart' element={<CartPage/>}/>
           <Route path='/check' element={<CheckoutPage/>}/>
           <Route path='/forgot' element={<Forgot/>}/>
           <Route path='/title' element={<Title/>}/>
+          <Route path='/popup' element={<LoginPopup/>}/>
         </Routes>
 
   )
