@@ -51,7 +51,7 @@ export const App = () => {
           <Route path='/check' element={<CheckoutPage/>}/>
           <Route path='/forgot' element={<Forgot/>}/>
           <Route path='/title' element={<Title/>}/>
-          <Route path='/popup' element={<Loginpopup/>}/>
+          <Route path='/log' element={<Loginpopup/>}/>
         </Routes>
 
   )
