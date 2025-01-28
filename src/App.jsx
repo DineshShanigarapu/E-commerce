@@ -22,7 +22,7 @@ import CartPage from './pages/CartPage'
 import CheckoutPage from './components/CheckoutPage'
 import Forgot from './pages/Forgot'
 import Title from './components/Title'
-import Loginpopup from './pages/Loginpopup'
+import LoginReg from './pages/LoginReg'
 
 
 export const App = () => {
@@ -51,7 +51,8 @@ export const App = () => {
           <Route path='/check' element={<CheckoutPage/>}/>
           <Route path='/forgot' element={<Forgot/>}/>
           <Route path='/title' element={<Title/>}/>
-          <Route path='/log' element={<Loginpopup/>}/>
+          <Route path='/popup' element={<LoginReg/>}/>
+
         </Routes>
 
   )
