@@ -17,19 +17,18 @@ import Login from './pages/Login'
 import AdminPanel from './components/AdminPanel'
 import ProductMenu from './components/ProductMenu'
 import CreateProduct from './components/CreateProduct'
-
 import RegisterModel from './pages/RegisterModel'
 import CartPage from './pages/CartPage'
 import CheckoutPage from './components/CheckoutPage'
 import Forgot from './pages/Forgot'
 import Title from './components/Title'
-import LoginPopup from './pages/Loginpopup'
+import Loginpopup from './pages/Loginpopup'
+
 
 export const App = () => {
   return (
     
         <Routes>
-          
           <Route path='/about' element={<About/>} />
           <Route path='/collection' element={<Collection/>} />
           <Route path='/order' element={<Order/>}/>
@@ -52,7 +51,7 @@ export const App = () => {
           <Route path='/check' element={<CheckoutPage/>}/>
           <Route path='/forgot' element={<Forgot/>}/>
           <Route path='/title' element={<Title/>}/>
-          <Route path='/popup' element={<LoginPopup/>}/>
+          <Route path='/popup' element={<Loginpopup/>}/>
         </Routes>
 
   )

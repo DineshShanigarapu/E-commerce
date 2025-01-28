@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RegisterModel from "./RegisterModel";
 
-const LoginPopup = () => {
+const Loginpopup = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showRegister, setShowRegister] = useState(false);
 
@@ -100,4 +100,4 @@ const LoginPopup = () => {
   );
 };
 
-export default LoginPopup;
+export default Loginpopup;
