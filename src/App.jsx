@@ -4,7 +4,6 @@ import { About } from './pages/About'
 import { Collection } from './pages/Collection'
 import { Order } from './pages/Order'
 import { PlaceOrder } from './pages/PlaceOrder'
-import { Product } from './pages/Product'
 import { Contact } from './pages/Contact'
 import Footer from './components/Footer'
 import Testimonials from './components/Testimonals'
@@ -23,6 +22,10 @@ import CheckoutPage from './components/CheckoutPage'
 import Forgot from './pages/Forgot'
 import Title from './components/Title'
 import LoginReg from './pages/LoginReg'
+import Item from './pages/Item'
+import Cart from './pages/Cart'
+
+
 
 
 export const App = () => {
@@ -33,7 +36,6 @@ export const App = () => {
           <Route path='/collection' element={<Collection/>} />
           <Route path='/order' element={<Order/>}/>
           <Route path='/place' element={<PlaceOrder/>}/>
-          <Route path='/product/:productId' element={<Product/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/footer' element={<Footer/>}/>
           <Route path='/testimonals' element={<Testimonials/>}/>
@@ -52,7 +54,8 @@ export const App = () => {
           <Route path='/forgot' element={<Forgot/>}/>
           <Route path='/title' element={<Title/>}/>
           <Route path='/popup' element={<LoginReg/>}/>
-
+          <Route path='/item' element={<Item/>}/>
+          <Route path='/c' element={<Cart/>}/>
         </Routes>
 
   )

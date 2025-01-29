@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { ChevronRight, Grid, ShoppingBag, Package, List, Settings } from "lucide-react";
 import ProductMenu from "./ProductMenu";
+import LoginReg from "../pages/LoginReg";
+import CartPage from "../pages/CartPage";
+import Login from "../pages/Login";
+import Register from "../pages/Register";
+import Forgot from "../pages/Forgot";
+import Testimonials from "./Testimonals";
+import Footer from "./Footer";
 
 const AdminPanel = () => {
   const [activePage, setActivePage] = useState("dashboard");
@@ -23,6 +30,7 @@ const AdminPanel = () => {
   };
 
   return (
+    <>
     <div className="h-screen flex text-gray-600 text-grey">
       <div className="flex flex-col w-60">
         <div className="flex items-center p-4 border-b border-gray-800">
@@ -91,7 +99,16 @@ const AdminPanel = () => {
       </div>
 
       <div className="flex-1 bg-gray-50">{renderContent()}</div>
+    
     </div>
+    <LoginReg/>
+    <CartPage/>
+    <Login/>
+    <Register/>
+    <Forgot/>
+    <Testimonials/>
+    <Footer/>
+    </>
   );
 };
 

@@ -38,7 +38,7 @@ function Login() {
                 <button type="submit" className="w-52 bg-black text-white py-3 rounded-sm hover:bg-gray-800">Login</button>
                 <div className='top-5 relative'>
                   <p>
-                    <a href="#" onClick={handleForgotClick} className="hover:underline top-5 underline">Forgot your password↗</a>
+                    <a href="#" onClick={handleForgotClick} className="hover:underline top-5 underline hover:text-red-600">Forgot your password↗</a>
                   </p>
                 </div>
               </form>
@@ -51,7 +51,7 @@ function Login() {
             Sign up for early Sale access plus tailored new arrivals, trends and promotions. To <br />opt out, click unsubscribe in our emails.
           </p>
           <span className='underline'>
-            <a href='/reg'>Register↗</a>
+            <a href='/reg'  className='hover:text-red-600'>Register↗</a>
           </span>
         </div>
       </div>

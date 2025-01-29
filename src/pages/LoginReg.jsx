@@ -44,7 +44,7 @@ const LoginReg = () => {
                   <div className="flex flex-row gap-5 align-middle">
                     <button type="submit" className="w-52 bg-black rounded-sm text-white py-3 hover:bg-gray-800">Log in</button>
                     <div className="mt-6 text-center text-sm relative bottom-3">
-                      <a href="#" onClick={handleRegisterClick} className="font-medium text-black hover:underline underline">New customer? Create your account</a>
+                      <a href="#" onClick={handleRegisterClick} className="font-medium text-black hover:underline underline  hover:text-red-600">New customer? Create your account</a>
                     </div>
                   </div>
                 </form>

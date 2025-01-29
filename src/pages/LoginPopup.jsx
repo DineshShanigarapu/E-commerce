@@ -72,7 +72,7 @@ const Loginpopup = () => {
 
               
                   <div className="mb-6 text-left">
-                    <a href="#" className="text-sm text-gray-500 hover:underline">
+                    <a href="#" className='text-sm text-gray-500 underline hover:text-red-600'>
                       Forgot your password?
                     </a>
                   </div>
@@ -85,7 +85,7 @@ const Loginpopup = () => {
                     </button>
 
                     <div className="mt-6 text-center text-sm relative bottom-3">
-                      <a href="#" onClick={handleRegisterClick} className="font-medium text-black hover:underline underline">
+                      <a href="#" onClick={handleRegisterClick} className="font-medium text-black hover:underline underline  className='hover:text-red-600'">
                         New customer? Create your account
                       </a>
                     </div>

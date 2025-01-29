@@ -112,7 +112,7 @@ function Register() {
         </form>
         <div className="text-center ">
           <p className="pt-5 underline">
-          <a href="/login">  Already have an account? Login here↗</a>
+          <a href="/login" className='hover:text-red-600'>  Already have an account? Login here↗</a>
           </p>
         </div>
       </div>

@@ -54,7 +54,7 @@ const CartPage = () => {
                 <p className="text-gray-600">{item.color} / {item.size}</p>
                 <button
                   onClick={() => handleRemove(item.id)}
-                  className=" underline mt-2"
+                  className=" underline mt-2 hover:text-red-600"
                 >
                   Remove
                 </button>
@@ -88,7 +88,7 @@ const CartPage = () => {
           className=" w-[40vw] h-32 p-2 border rounded-sm"
           placeholder="How can we help you?"
         ></textarea>  
-         <div className=' absolute end-10 top-4'><CheckoutPage/></div>
+         <div ><CheckoutPage/></div>
       </div>
      
     </div>
