@@ -30,7 +30,7 @@ const CheckoutPage = () => {
         <img className="h-6" src="https://ecomus.magentech.com/media/wysiwyg/payments/visa.svg" />
             <img className="h-6" src="https://ecomus.magentech.com/media/wysiwyg/payments/paypal.svg" />
             <img className="h-6" src="https://ecomus.magentech.com/media/wysiwyg/payments/master.svg" />
-            <img className="h-6" src="https://ecomus.magentech.com/media/wysiwyg/payments/master.svg" />
+            <img className="h-6" src="	https://ecomusnext-themesflat.vercel.app/images/payments/img-3.png" />
             <img className="h-6" src="https://ecomus.magentech.com/media/wysiwyg/payments/diners_club.svg" />
         </div>
       </div>

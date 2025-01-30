@@ -1,55 +1,4 @@
-import React, { useState } from 'react';
-
-const images = [
-  'https://ecomusnext-themesflat.vercel.app/images/products/bark-phone-blue.jpg',
-  'https://ecomusnext-themesflat.vercel.app/images/shop/products/hmgoepprod.jpg',
-  'https://ecomusnext-themesflat.vercel.app/images/shop/products/hmgoepprod2.jpg',
-  'https://ecomusnext-themesflat.vercel.app/images/shop/products/hmgoepprod3.jpg',
-];
-
-const Cart = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const handleNextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const handlePrevImage = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
-  return (
-    <div className="w-full sm:w-1/2 bg-white">
-      <header className="bg-gray-100 p-4">
-        <nav className="container mx-auto">
-          <ul className="flex space-x-4">
-            <li><a href="#" className="text-gray-600">Home</a></li>
-            <li><span className="text-gray-400">/</span></li>
-            <li><a href="#" className="text-gray-600">Case with MagSafe</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main className="container mx-auto p-4">
-        <div className="flex flex-wrap">
-          <div className="w-1/4 sm:w-1/2 md:w-1/4">
-            {images.map((image, index) => (
-              <div key={index} className="mb-4 cursor-pointer" onClick={() => setCurrentImageIndex(index)}>
-                <img src={image} alt={`Thumbnail ${index + 1}`} className="w-full" />
-              </div>
-            ))}
-          </div>
-          <div className="w-3/4 sm:w-full md:w-3/4 relative">
-            <img src={images[currentImageIndex]} alt="Current view" className="w-full" />
-            <button onClick={handlePrevImage} className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-200">{"<"}</button>
-            <button onClick={handleNextImage} className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-gray-200">{">"}</button>
-          </div>
-        </div>
-      </main>
-    </div>
-  );
-};
+import React from 'react';
 
 const Item = () => {
   const [quantity, setQuantity] = useState(1);
@@ -172,4 +121,4 @@ const Item = () => {
   );
 };
 
-export { Cart, Item };
+export default Item;

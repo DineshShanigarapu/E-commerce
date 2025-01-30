@@ -22,8 +22,10 @@ import CheckoutPage from './components/CheckoutPage'
 import Forgot from './pages/Forgot'
 import Title from './components/Title'
 import LoginReg from './pages/LoginReg'
-import Item from './pages/Item'
-import Cart from './pages/Cart'
+import Item from './Products/Item'
+import { Cart } from './pages/Cart'
+import ProductPage from './Products/ProductPage'
+import MainComponent from './Products/MainComponent'
 
 
 
@@ -55,7 +57,10 @@ export const App = () => {
           <Route path='/title' element={<Title/>}/>
           <Route path='/popup' element={<LoginReg/>}/>
           <Route path='/item' element={<Item/>}/>
-          <Route path='/c' element={<Cart/>}/>
+          <Route path='/product' element={<Cart/>}/>
+          <Route path='/productpage' element={<ProductPage/>}/>
+          <Route path='/main' element={<MainComponent/>}/>
+
         </Routes>
 
   )

@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import Forgot from "../pages/Forgot";
 import Testimonials from "./Testimonals";
 import Footer from "./Footer";
+import ProductPage from "../Products/ProductPage";
 
 const AdminPanel = () => {
   const [activePage, setActivePage] = useState("dashboard");
@@ -108,6 +109,7 @@ const AdminPanel = () => {
     <Forgot/>
     <Testimonials/>
     <Footer/>
+    <ProductPage/>
     </>
   );
 };
