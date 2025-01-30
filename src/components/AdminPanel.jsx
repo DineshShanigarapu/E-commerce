@@ -9,6 +9,7 @@ import Forgot from "../pages/Forgot";
 import Testimonials from "./Testimonals";
 import Footer from "./Footer";
 import ProductPage from "../Products/ProductPage";
+import ShopByCategories from "./ShopByCategories";
 
 const AdminPanel = () => {
   const [activePage, setActivePage] = useState("dashboard");
@@ -110,6 +111,7 @@ const AdminPanel = () => {
     <Testimonials/>
     <Footer/>
     <ProductPage/>
+    <ShopByCategories/>
     </>
   );
 };

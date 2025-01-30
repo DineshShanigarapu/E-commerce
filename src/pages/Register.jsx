@@ -61,7 +61,7 @@ function Register() {
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
-              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border rounded-sm"
+              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3  border focus:outline-none  rounded-sm"
               placeholder="First name"
               required
             />
@@ -73,7 +73,7 @@ function Register() {
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
-              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border  rounded-sm "
+              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border focus:outline-none  rounded-sm "
               placeholder="Last name"
               required
             />
@@ -85,7 +85,7 @@ function Register() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border  rounded-sm"
+              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border focus:outline-none   rounded-sm"
               placeholder="Email *"
               required
             />
@@ -97,7 +97,7 @@ function Register() {
               name="password"
               value={formData.password}
               onChange={handleChange}
-              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border  rounded-sm"
+              className="w-full sm:w-[60vw] md:w-[55vw] lg:w-[43vw] px-4 py-3 border focus:outline-none  rounded-sm"
               placeholder="Password *"
               required
             />

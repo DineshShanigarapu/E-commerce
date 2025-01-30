@@ -30,10 +30,10 @@ function Login() {
               </p>
               <form>
                 <div className="mb-4">
-                  <input type="email" className="w-full px-4 py-3 border rounded-sm" placeholder="Email *" required />
+                  <input type="email" className="w-full px-4 py-3 border rounded-sm focus:outline-none " placeholder="Email *" required />
                 </div>
                 <div className="mb-6">
-                  <input type="password" className="w-full px-4 py-3 border rounded-sm" placeholder="Password *" required />
+                  <input type="password" className="w-full px-4 py-3 border rounded-sm focus:outline-none " placeholder="Password *" required />
                 </div>
                 <button type="submit" className="w-52 bg-black text-white py-3 rounded-sm hover:bg-gray-800">Login</button>
                 <div className='top-5 relative'>

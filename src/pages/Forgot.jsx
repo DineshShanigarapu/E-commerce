@@ -8,7 +8,7 @@ const Forgot = ({ handleBackToLoginClick }) => {
       <form>
         <p className='mb-6 text-gray-600'>We will send you an email to reset your password</p>
         <div className='mb-6'>
-        <input type="email" className="w-full px-4 py-3 border rounded-sm" placeholder="Email *" required />
+        <input type="email" className="w-full px-4 py-3 border rounded-sm focus:outline-none " placeholder="Email *" required />
         </div>
         <div className='flex flex-col mb-6'>
           <a href="#" onClick={handleBackToLoginClick} className='underline mb-6  hover:text-red-600'>Cancel</a>
