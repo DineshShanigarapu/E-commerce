@@ -10,6 +10,11 @@ import Testimonials from "./Testimonals";
 import Footer from "./Footer";
 import ProductPage from "../Products/ProductPage";
 import ShopByCategories from "./ShopByCategories";
+import Categories from "./Categories";
+import NewArrivals from "../pages/NewArrivals";
+import FilterSidebar from "../pages/FilterSidebar";
+import Integration from "../pages/Integration";
+import AccountDashboard from "../pages/AccountDashboard";
 
 const AdminPanel = () => {
   const [activePage, setActivePage] = useState("dashboard");
@@ -112,6 +117,11 @@ const AdminPanel = () => {
     <Footer/>
     <ProductPage/>
     <ShopByCategories/>
+    <Categories/>
+    <NewArrivals/>
+<FilterSidebar/>
+<Integration/>
+ <AccountDashboard/>
     </>
   );
 };

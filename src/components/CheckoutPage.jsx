@@ -23,7 +23,7 @@ const CheckoutPage = () => {
           <span className="ml-2">I agree with the <span className="underline">terms and conditions</span></span>
         </label>
       </div>
-      <button className="w-full bg-black text-white py-2 rounded-lg">Check out</button>
+      <button className="w-full bg-black text-white py-2 rounded-sm">Check out</button>
       <div className="mt-4 text-center">
         <p className="text-sm font-semibold">Guarantee Safe Checkout</p>
         <div className="flex justify-center mt-2 space-x-2">
