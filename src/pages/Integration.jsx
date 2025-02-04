@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FilterSidebar from "./FilterSidebar";
+import FilterSidebar from "../components/filterbar/FilterSidebar";
 import NewArrivals from "./NewArrivals";
 
 export default function Integration() {

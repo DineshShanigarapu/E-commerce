@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 
-import CategoryFilter from "../components/CategoryFilter";
-import AvailabilityFilter from "../components/AvailabilityFilter";
-import PriceFilter from "../components/PriceFilter";
-import BrandFilter from "../components/BrandFilter";
-import ColorFilter from "../components/ColorFilter";
-import SizeFilter from "../components/SizeFilter";
+import CategoryFilter from "./CategoryFilter";
+import AvailabilityFilter from "./AvailabilityFilter";
+import PriceFilter from "./PriceFilter";
+import BrandFilter from "./BrandFilter";
+import ColorFilter from "./ColorFilter";
+import SizeFilter from "./SizeFilter";
 
 export default function FilterSidebar({ isOpen, toggleSidebar }) {
   const [expandedSection, setExpandedSection] = useState(null);

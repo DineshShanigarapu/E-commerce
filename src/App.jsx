@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { About } from './pages/About'
+
 import { Collection } from './pages/Collection'
 import { Order } from './pages/Order'
 import { PlaceOrder } from './pages/PlaceOrder'
@@ -26,6 +26,7 @@ import Item from './Products/Item'
 import { Cart } from './pages/Cart'
 import ProductPage from './Products/ProductPage'
 import MainComponent from './Products/MainComponent'
+import Sidebar from './components/SideBar'
 
 
 
@@ -34,7 +35,7 @@ export const App = () => {
   return (
     
         <Routes>
-          <Route path='/about' element={<About/>} />
+
           <Route path='/collection' element={<Collection/>} />
           <Route path='/order' element={<Order/>}/>
           <Route path='/place' element={<PlaceOrder/>}/>
@@ -60,7 +61,7 @@ export const App = () => {
           <Route path='/product' element={<Cart/>}/>
           <Route path='/productpage' element={<ProductPage/>}/>
           <Route path='/main' element={<MainComponent/>}/>
-
+          <Route path='/sidebar' element={<Sidebar/>}/>
         </Routes>
 
   )

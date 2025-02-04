@@ -12,9 +12,16 @@ import ProductPage from "../Products/ProductPage";
 import ShopByCategories from "./ShopByCategories";
 import Categories from "./Categories";
 import NewArrivals from "../pages/NewArrivals";
-import FilterSidebar from "../pages/FilterSidebar";
+import FilterSidebar from "./filterbar/FilterSidebar";
 import Integration from "../pages/Integration";
 import AccountDashboard from "../pages/AccountDashboard";
+import NotFoundPage from "../pages/NotFoundPage";
+import InvoicePage from "../pages/Invoice";
+import PaymentConfirmation from "../pages/payment/PaymentConfirmation";
+import PaymentFailure from "../pages/payment/PaymentFailure";
+import FAQPage from "../pages/FAQPage";
+import ContactUs from "../pages/ContactUs";
+import AboutUs from "../pages/AboutUs";
 
 const AdminPanel = () => {
   const [activePage, setActivePage] = useState("dashboard");
@@ -122,6 +129,13 @@ const AdminPanel = () => {
 <FilterSidebar/>
 <Integration/>
  <AccountDashboard/>
+ <NotFoundPage/>
+ <InvoicePage/>
+ <PaymentConfirmation/>
+ <PaymentFailure/>
+ <FAQPage/>
+ <ContactUs/>
+<AboutUs/>
     </>
   );
 };

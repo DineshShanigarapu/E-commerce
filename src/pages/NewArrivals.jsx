@@ -33,6 +33,7 @@ const NewArrivals = () => {
 
   return (
     <div className="flex flex-col items-center px-8 md:px-16 lg:px-24">
+  
       <h2 className="text-2xl font-bold mb-8 mt-4">SHOP BY CATEGORIES</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 w-full">
         {currentProducts.map((product) => (
