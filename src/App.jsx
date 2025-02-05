@@ -27,6 +27,8 @@ import { Cart } from './pages/Cart'
 import ProductPage from './Products/ProductPage'
 import MainComponent from './Products/MainComponent'
 import Sidebar from './components/SideBar'
+import NewArrivals from './pages/NewArrivals'
+import Integration from './pages/Integration'
 
 
 
@@ -62,6 +64,8 @@ export const App = () => {
           <Route path='/productpage' element={<ProductPage/>}/>
           <Route path='/main' element={<MainComponent/>}/>
           <Route path='/sidebar' element={<Sidebar/>}/>
+        <Route path='/filter' element={<Integration/>}/>
+          <Route path='/newarrivals' element={<NewArrivals/>}/>
         </Routes>
 
   )

@@ -136,6 +136,7 @@ const AdminPanel = () => {
  <FAQPage/>
  <ContactUs/>
 <AboutUs/>
+{/* <Sidebar/> */}
     </>
   );
 };

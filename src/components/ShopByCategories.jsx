@@ -40,7 +40,7 @@ export default function ShopByCategories() {
             Explore the latest collections and trending products.
           </p>
           <button className="mt-5 px-6 py-3 bg-black text-white rounded-full font-semibold shadow-md hover:bg-gray-900 transition">
-            Shop Now →
+           <a href='/newarrivals'> Shop Now →</a>
           </button>
         </div>
       </div>
